@@ -18,4 +18,4 @@ def selectionSort(arr):
         newArr.append(arr.pop(smallest))
     return newArr
 
-print selectionSort([5,3,2,10])
+print :selectionSort([5,3,2,10])
