@@ -43,3 +43,10 @@ for x in range(1,101):
 string01 = 'Create a list of the first letters of every word in this string'
 string02 = [x[0] for x in string01.split()]
 print(string02)
+
+#alternative of using list comprehension use append statement
+mystring = 'hello' # We are creating a list from a string
+newlist = []
+for letter in mystring:
+    newlist.append(letter)
+print(newlist)
