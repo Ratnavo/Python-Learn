@@ -50,3 +50,12 @@ newlist = []
 for letter in mystring:
     newlist.append(letter)
 print(newlist)
+
+#Nested loop
+
+newlist01 = []
+
+for number_x in [2,4,6]:
+    for number_y in [100,200,312]:
+        newlist01.append(number_x*number_y)
+        print(newlist01)
