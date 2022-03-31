@@ -51,7 +51,7 @@ for letter in mystring:
     newlist.append(letter)
 print(newlist)
 
-#Nested loop
+# Practice Nested loop
 
 newlist01 = []
 
@@ -59,3 +59,7 @@ for number_x in [2,4,6]:
     for number_y in [100,200,312]:
         newlist01.append(number_x*number_y)
         print(newlist01)
+        
+# sets are underorderd collections of unique elements
+mylist = [1,2,3,4,5,6,7,3,4,5,2,3,6]
+set(mylist)
