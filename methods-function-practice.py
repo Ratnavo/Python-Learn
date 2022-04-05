@@ -22,12 +22,25 @@ print(mylist)
 # Function can accept arguments to be passed by the user.
 # return = this is a keyword that allows to use the output of a function to a new vairable.
 
-
-
 #==================================================
 
+# Basic function of python
+
+def name_of_function():
+    print("hello")
+name_of_function()
+
+def say_hello(name):
+    print(f'Hello {name}')
+say_hello('Ratnavo') 
 
 
+# Function using return
 
+def add_num(num1,num2):
+    return num1+num2
+result = add_num(2,2)    
+print(result)
 
+# Diff between print and return is that return saves the value.
 
