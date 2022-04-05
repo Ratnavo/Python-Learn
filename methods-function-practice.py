@@ -44,3 +44,15 @@ print(result)
 
 # Diff between print and return is that return saves the value.
 
+def print_result(a,b):
+    print(a+b)
+savea = print_result(1,2)
+print(savea)
+
+def return_result(c,d):
+    return c+d
+return_result(10,12)
+saveb = return_result(10,12)
+print(saveb)
+    
+# Check data types
