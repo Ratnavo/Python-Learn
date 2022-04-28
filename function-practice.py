@@ -76,7 +76,7 @@ def makes_twenty(n1,n2):
 def makes_twenty(n1,n2):
     return (n1+n2) == 20 or n1 == 20 or n2 == 20
 
-# FIND 33: 
+# FIND 33: Udemy Pierian Data
 
 #Given a list of ints, return True if the array contains a 3 next to a 3 somewhere.
 
@@ -90,3 +90,14 @@ def has_33(nums):
         return True
     else:
         return False
+
+#### : Udemy Pierian Data : PAPER DOLL: Given a string, return a string where for every character in the original there are three characters
+#   paper_doll('Hello') --> 'HHHeeellllllooo'
+#    paper_doll('Mississippi') --> 'MMMiiissssssiiippppppiii'
+
+def paper_doll(text):
+    result = ''
+    
+    for char in text:
+        result += char*3
+    return result
